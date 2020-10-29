@@ -1,6 +1,6 @@
 pragma solidity 0.6.12;
 
-import "@pancakeswap/pancake-swap-lib/contracts/token/BEP20/BEP20.sol";
+import "BEP20.sol";
 
 // UniToken with Governance.
 contract UniToken is BEP20('UnicornsSwap Token', 'UNI') {
