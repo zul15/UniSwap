@@ -2,11 +2,11 @@
 
 pragma solidity >=0.4.0;
 
-import '../../access/Ownable.sol';
-import '../../GSN/Context.sol';
-import './IBEP20.sol';
-import '../../math/SafeMath.sol';
-import '../../utils/Address.sol';
+import 'Ownable.sol';
+import 'Context.sol';
+import 'IBEP20.sol';
+import 'math/SafeMath.sol';
+import 'Address.sol';
 
 /**
  * @dev Implementation of the {IBEP20} interface.
